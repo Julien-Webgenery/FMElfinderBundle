@@ -1,5 +1,5 @@
 {
-    "name": "helios-ag/fm-elfinder-bundle",
+    "name": "wgr/fm-elfinder-bundle",
     "description": "ElFinder bundle, adds ElFinder file manager to your Symfony project",
     "keywords": ["elfinder","file manager","wysiwyg"],
     "type": "symfony-bundle",
@@ -26,8 +26,7 @@
         "symfony/form":                        "~2.8|~3.0|~4.0",
         "symfony/asset":                       "~2.8|~3.0|~4.0",
         "components/elfinder":                 "~3",
-        "studio-42/elfinder":                  "~2.1",
-        "robloach/component-installer":        "~0.2"
+        "studio-42/elfinder":                  "~2.1"
     },
     "require-dev" : {
         "symfony/phpunit-bridge": "~2.8|~3.0|~4.0",
@@ -44,6 +43,9 @@
     },
     "autoload": {
         "psr-4": { "FM\\ElfinderBundle\\": "" }
+    },
+    "replace": {
+        "helios-ag/fm-elfinder-bundle": "~8"
     },
     "extra": {
         "branch-alias": {
