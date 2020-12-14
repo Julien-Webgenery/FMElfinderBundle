@@ -50,6 +50,14 @@
     "extra": {
         "branch-alias": {
             "dev-master": "8.0-dev"
+        },
+        "installer-types": [
+            "component"
+        ],
+        "installer-paths": {
+            "components/{$name}/": [
+                "type:component"
+            ]
         }
     }
 }
