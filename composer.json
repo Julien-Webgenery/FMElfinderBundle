@@ -25,7 +25,7 @@
         "symfony/twig-bundle":                 "~2.8|~3.0|~4.0",
         "symfony/form":                        "~2.8|~3.0|~4.0",
         "symfony/asset":                       "~2.8|~3.0|~4.0",
-        "jcs-components/elfinder":             "dev-composer-2.0@dev",
+        "jcs-components/elfinder":             "~4.0",
         "wgr/elfinder":                        "~2.1"
     },
     "require-dev" : {
